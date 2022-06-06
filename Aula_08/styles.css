@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 30;
+    padding: 70;
+    outline: none;
+    box-sizing: border-box;
+    background-color: black;
+
+
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+    font-family: 'roboto', sans-serif;
+    background-color:  #131313;
+
+}
+
+.banner{
+    height: 500px;
+        background-image: url('https://blogs.uai.com.br/opipoqueiro/wp-content/uploads/sites/54/2021/10/Duna-01.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
