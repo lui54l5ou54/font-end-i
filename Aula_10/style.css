@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: rebeccapurple;
+    text-align: center;
+    display: inline;
+}
+
+p{
+    background-color: aqua;
+    justify-content: baseline;
+}
+
+a{
+    background-color: blue;
+    font-size: 36px;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    width: 120%;
+}
+
+.class{
+    width: 200px;
+}
