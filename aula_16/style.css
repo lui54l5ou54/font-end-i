@@ -26,6 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+    
 }
 
 .contato form{
@@ -38,9 +39,5 @@
     padding: 42px;
     gap: 12px;
 
-
-}
-
-.contato form button {
 
 }
