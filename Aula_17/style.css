@@ -1,0 +1,23 @@
+
+body{
+    background-color: rgb(76, 76, 221);
+}
+
+input{
+    background-color: aqua;
+    border: none;
+    transition: 1.6s;
+}
+
+input:invalid {
+
+    background-color: red;
+   
+
+}
+
+.div button{
+    background-color: brown;
+    cursor: pointer;
+
+}

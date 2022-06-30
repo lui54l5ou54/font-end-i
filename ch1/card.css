@@ -1,0 +1,76 @@
+
+body{
+    background-color: rgb(168, 121, 64);
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.cabeca{
+    width: 100px;
+    background-color: aqua;
+
+}
+
+
+.card {
+    width: 500px;
+    background-color: rgb(32, 77, 60);
+    border-radius: 12px;
+    margin: 12px auto;
+    overflow: hidden;
+    position: relative;
+    height: fit-content;
+
+
+
+}
+
+.card .banner{
+    width: 100%;
+    /* border-top-left-radius: 12px;
+    border-top-right-radius: 12px; */
+}
+
+.card .favorito{
+    width: 40px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+
+
+}
+
+.card .logo{
+    width: 140px;
+    margin: -50px auto 12px;
+    display: block;
+    border-radius: 50%;
+}
+
+.card .paragrafo{
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+.card .titulo{
+    text-align: center;
+}
+
+.card {
+width: 500px;
+background-color: rgb(32, 77, 60);
+border-radius: 12px;
+}
+
+.card .botao{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px ;
+}

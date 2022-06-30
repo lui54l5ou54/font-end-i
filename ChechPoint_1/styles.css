@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    list-style: none;
+    font-family: ro;
+    outline: none;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    min-width: 425px;
+    margin: 0 auto;
+    padding: 1% 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(89, 89, 224);
+    border-radius: 12px;
+    border: 1.5px solid black ;    
+}
+
+main .card{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: brown;
+    border-radius: 12px;
+    overflow: hidden;
+    height: fit-content;
+    background-image: url(https://cf.shopee.com.br/file/0ce3cb40436e454675e0a395d396a44d);
+    min-height: 320px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 12px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 5%;
+}
+
+
+
+
+
+main{
+    align-items: center;
+}
+
+header{
+    padding: 5px;
+    /* height: 70px; */
+}
+
+
+nav {
+    display: flex;
+    gap: 12px;
+    
+}
+
+.center .menu nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  
+}
+
+
+   
+
+
+/* main .card img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: rgb(161, 123, 123);
+    margin: 0 auto;
+    margin-top: 12px;
+
+
+}
+
+main .card div{
+
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    width: 320px;
+    color: rgb(224, 220, 230);
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+
+main .cards .places{
+    display: flex;
+    background-color: bisque;
+    width: 320px;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px;
+    border-radius: 12px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+main .card h1{
+    font-size: 30px;
+}
+
+main .card h2{
+    font-size: 20px;
+}
+
+
+
+/* 
+main .cards .places {
+    padding: 20px;
+    text-align: center;
+} */
+
+main .cards .places h1{
+    
+    justify-self: center;
+    /* position: 50%; */
+    
+}
+
+/* main .cards .places p{
+    margin: 12px;
+    text-indent: 20px;
+    text-align: justify;
+} */
+
+p{
+    margin: 12px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+main .cards .places img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+
+ 
+
+}
+
+main .places button{
+    background-color: rgb(109, 108, 189);
+    height: 36px;
+    padding: 0 12px;
+    margin: 12px;
+    border-radius: 12px;
+    text-align: center;
+    width: fit-content;
+        align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+        border: none;
+
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.fixed{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 12px;
+    padding: 12px;
+    width: fit-content;
+    border-radius: 32px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: fixed;
+    position: r;
+    right: 24px;
+    bottom: 24px;
+
+
+  
+}
+
+.contato{
+    display: flex;
+    background-color: brown;
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+    padding: 1% 5%;
+    border-radius: 12px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+    max-width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px auto;
+    padding: 24px;
+
+
+    
+   
+
+}
+
+.contato div{
+    padding: 12px;
+}
+
+button{
+    background-color: black;
+    height: 36px;
+    padding: 0 12px;
+    margin: 0 auto;
+    border-radius: 12px;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+
+
+

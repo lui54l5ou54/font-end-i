@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+
+.cabeca{
+    background-color: rgb(44, 94, 77);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+
+
+}
+.cabeca img{
+    height: 80px;
+}
+
+.cabeca .nav-cabeca{
+    background-color: blueviolet;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.corpo-principal{
+  
+    display: flex;
+    background-color: rgb(54, 54, 202);
+    margin: 10px ;
+    border-radius: 16px;
+    height: 1000px;
+    padding: 16px;
+
+        
+}
+
+.corpo-principal .card-principal{
+    background-color: rgb(104, 21, 90);
+    display: flex;
+    height: fit-content;
+    min-height: 200px;
+    border-radius: 16px;
+    padding: 16px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.corpo-principal .card-principal div{
+    display: inline-block;
+    max-width: 400px;
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+    
+    
+}
+.card-principal ,.card-principal div h1{
+
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.card-principal ,.card-principal div h2{
+
+    /* align-items: center; */
+    text-align: center;
+}
+
+
+
+/* header{
+    background-color: green;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+
+}
+
+.cabeca div{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: solid 3px;
+    border-color: rgb(170, 49, 49);
+
+} */
+
+
+footer{
+    background-color: rgb(77, 41, 110);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgfoot img {
+    /* width: 48px;
+    margin-top: 8px 16px 16px 8px;
+    gap: 46px;
+    size: 24px;
+    align-items: ;
+
+    background-color: rgb(44, 94, 77);
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    padding: 0 80px;
+    size: 10%; */
+}
+
+
+.imgfoot img{
+    height: 48px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    
+    }
+

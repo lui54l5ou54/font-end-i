@@ -10,6 +10,17 @@ body {
     background-color: #202020;
 }
 
+main{
+    background-color: aquamarine;
+    max-width: 1000px;
+       border-radius: 16px;
+    margin: 16px auto 16px ;
+    border-color: red;
+    border: 12px;
+    
+
+}
+
 .main-header {
 
     background-color: #505050;
@@ -19,6 +30,16 @@ body {
     padding: 0 80px;
 }
 
+.main-header .pesquisa{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    border-radius: 15px;
+    padding: 0 16px;
+       
+
+
+}
 
 .main-header ul {
     height: 100%;
@@ -30,9 +51,9 @@ body {
 }
 
 .videos {
-
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
