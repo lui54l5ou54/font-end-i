@@ -1,0 +1,13 @@
+*{
+    background-color: gray;
+}
+
+.btn-custom{
+    margin: 64px;
+    padding: 12px 48px;
+}
+
+body div .container .col{
+    background-color: aqua;
+
+}

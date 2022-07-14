@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    list-style: none;
+    /* font-family: ro; */
+    outline: none;
+    scroll-behavior: smooth;
+    /* background-color: gray; */
+}
+
+body{
+    background-color: rgba(0, 0, 255, 0.75);
+    
+}
+
+header{
+    position: fixed;
+    margin: auto;
+    border: 5px solid #ccc;
+    background-color: #fff;
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(3, 80, 3, 0.75);
+    box-shadow: 0 5px 25px rgb(0 0 0 / 25%);
+    transition: 0,7s;
+    flex-wrap: wrap;
+    height: 160px;
+    border-radius: 12px;
+    border: 1.5px solid black ; 
+    align-items: center;
+    max-width: 1280px;
+    
+
+    
+
+}
+
+/* .center{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 0 auto;
+    padding: 1% 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(89, 89, 224);
+    border-radius: 12px;
+    border: 1.5px solid black ;    
+} */
+
+header .logo{
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1,5px;
+}
+
+header nav{
+    position: relative;
+    line-height: 75px;
+    display: block;
+    outline: none;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: large;
+}
+
+header nav .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    user-select: none;
+    
+
+}
+
+header nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+header nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0.75);
+    border-radius: 12px;
+    }
+
+.nav ul{
+    display: none;
+    position: relative;
+
+}
+
+.nav ul li:hover ul{
+    /* display: inline-block; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+
+
+
+main .card{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    /* background-color: brown; */
+    border-radius: 12px;
+    overflow: hidden;
+    height: fit-content;
+    background-image: url(http://belezasnaturais.com.br/wp-content/uploads/2017/02/Turismo-no-Brasil-por-que-fazer.jpg);
+    background-attachment: fixed;
+    min-height: 640px;
+    align-items: center;
+    justify-content: end;
+    margin-top: 190px;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 1% 5%;
+}
+
+
+
+
+
+
+main{
+    align-items: center;
+}
+
+header{
+    padding: 5px;
+    /* height: 70px; */
+}
+
+
+nav {
+    display: flex;
+    gap: 12px;
+    
+}
+
+/* .center .menu nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  
+} */
+
+
+   
+
+
+/* main .card img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1280px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: rgba(255, 255, 0, 0.712);
+    margin: 0 auto;
+    margin-top: 12px;
+
+
+}
+
+main .card div{
+
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    width: 320px;
+    color: rgb(224, 220, 230);
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+
+main .cards .places{
+    display: flex;
+    background-color: bisque;
+    width: 320px;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px;
+    border-radius: 12px;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+main .card h1{
+    font-size: 30px;
+}
+
+main .card h2{
+    font-size: 20px;
+}
+
+
+
+/* 
+main .cards .places {
+    padding: 20px;
+    text-align: center;
+} */
+
+main .cards .places h1{
+    
+    justify-self: center;
+    /* position: 50%; */
+    
+}
+
+/* main .cards .places p{
+    margin: 12px;
+    text-indent: 20px;
+    text-align: justify;
+} */
+
+p{
+    margin: 12px;
+    text-indent: 20px;
+    text-align: justify;
+ 
+}
+
+main .cards .places img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+
+ 
+
+}
+
+main .places button{
+    background-color: rgb(109, 108, 189);
+    height: 36px;
+    padding: 0 12px;
+    margin: 12px;
+    border-radius: 12px;
+    text-align: center;
+    width: fit-content;
+        align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+        border: none;
+
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+main .places button:hover{
+    background-color: red;
+    transform: scale(1.7);
+    box-shadow: 0 0 10px 2px rgb(221, 160, 46);
+    
+
+}
+
+.fixed{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 12px;
+    padding: 12px;
+    width: fit-content;
+    border-radius: 32px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    position: fixed;
+    position: r;
+    right: 24px;
+    bottom: 24px;
+
+
+  
+}
+
+
+.contato{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 1% 5%;
+    border-radius: 12px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: fit-content;
+    max-width: 1280px;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px auto;
+    padding: 24px;
+
+
+    
+   
+
+}
+
+.contato div{
+    padding: 12px;
+}
+
+/* button{
+    background-color: black;
+    height: 36px;
+    padding: 0 12px;
+    margin: 0 auto;
+    border-radius: 12px;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    background-color: #000;
+    color: #fff;
+    width: 350px;
+    padding: 20px 10px;
+    border-radius: 12px;
+    margin: auto;
+  }
+  
+  .row{
+    padding: 10px 20px;
+    
+  }
+  
+  .row label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  .row input{
+    height: 30px;
+    width: 100%;
+    transition: 500ms;
+  }
+  .row select{
+    height: 30px;
+    width: 100%;
+  }
+  
+  .row label.idade {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+  }
+  
+  .row input.idade {
+    -webkit-appearance:none;
+      width:20px;
+      height:20px;
+      margin: 0 10px;
+      /* border:1px solid darkgray; */
+      border-radius:50%;
+    vertical-align: middle;
+  }
+  
+  .row input.idade:hover {
+      box-shadow:0 0 10px 2px rgb(221, 160, 46);
+  }
+  .row input.idade:before {
+      content:'';
+      display:block;
+      width:100%;
+      height:100%;
+      border-radius:50%;    
+      background-color: white;
+  }
+  input[type='radio']:checked:before {
+      background-color:#0075FF;
+  }
+  
+  .row .button-submit, .row .button-reset{
+    border-radius: 50px;
+    width: 40%;
+    display: inline;
+  }
+  
+  .row .interest {
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+    vertical-align: middle;
+  }
+  
+  .row input.interest {
+    width: 30px;
+  }
+  
+  .row input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgb(221, 160, 46);
+  }
+  
+  .row:hover .etiqueta{
+    color: salmon;
+  }
+  
+  .row .button-reset:hover{
+    background-color: rgb(247, 171, 162);
+  }
+  
+  .row .button-submit:hover{
+    background-color: rgb(169, 241, 169);
+  }
+  
+  #ponto-interesse {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #data {
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+  }
+
+
